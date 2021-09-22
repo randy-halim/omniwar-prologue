@@ -1,0 +1,10 @@
+{
+  "itemGroup.tabomni_war_tab": "Omni War - Prologue",
+  "item.omniwar_prologue.glitch_gun": "com.utils.POINTER",
+  "biome.omniwar_prologue.null_plains": "Null Plains",
+  "item.omniwar_prologue.glitch_minion_spawn_egg": "entity.type.null[0] Spawn Egg",
+  "item.omniwar_prologue.glitch_sword": "minecraft.weapon[0].sword",
+  "entity.omniwar_prologue.glitch_minion": "entity.type.null[0]",
+  "block.omniwar_prologue.artifact_forge_block": "Artifact Forge Table",
+  "item.omniwar_prologue.null_demension": "Null Demension Portal Igniter"
+}

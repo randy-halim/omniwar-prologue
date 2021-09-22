@@ -1,0 +1,147 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "NullDemension",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "null_demension",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "NullPlains",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "null_plains"
+    },
+    {
+      "name": "OmniWarTab",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "omni_war_tab"
+    },
+    {
+      "name": "GlitchSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_sword",
+      "path": "~/Glitches"
+    },
+    {
+      "name": "GlitchGun",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_gun",
+      "path": "~/Glitches"
+    },
+    {
+      "name": "ArtifactForge",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_forge",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "ArtifactForgeWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_forge_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArtifactForgeBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artifact_forge_block",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "GlitchMinion",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_minion",
+      "path": "~/Glitches"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabomni_war_tab": "Omni War - Prologue",
+      "item.omniwar_prologue.glitch_gun": "com.utils.POINTER",
+      "biome.omniwar_prologue.null_plains": "Null Plains",
+      "item.omniwar_prologue.glitch_minion_spawn_egg": "entity.type.null[0] Spawn Egg",
+      "item.omniwar_prologue.glitch_sword": "minecraft.weapon[0].sword",
+      "entity.omniwar_prologue.glitch_minion": "entity.type.null[0]",
+      "block.omniwar_prologue.artifact_forge_block": "Artifact Forge Table",
+      "item.omniwar_prologue.null_demension": "Null Demension Portal Igniter"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Glitches",
+        "children": []
+      },
+      {
+        "name": "Artifacts",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "omniwar_prologue",
+    "modName": "OmniWar Prologue",
+    "version": "1.0.0",
+    "author": "halim, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "me.fcrh.omniwarprologue",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

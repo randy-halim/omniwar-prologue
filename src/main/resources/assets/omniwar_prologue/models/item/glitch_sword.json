@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "omniwar_prologue:items/null_sword"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "omniwar_prologue:blocks/artifact_forge_top",
+    "up": "omniwar_prologue:blocks/artifact_forge_top",
+    "north": "omniwar_prologue:blocks/artifact_forge_side",
+    "east": "omniwar_prologue:blocks/artifact_forge_side",
+    "south": "omniwar_prologue:blocks/artifact_forge_side",
+    "west": "omniwar_prologue:blocks/artifact_forge_side",
+    "particle": "omniwar_prologue:blocks/artifact_forge_top"
+  }
+}

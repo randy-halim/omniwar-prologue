@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "omniwar_prologue:block/artifact_forge_block"
+    }
+  }
+}

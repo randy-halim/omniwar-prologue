@@ -8,7 +8,7 @@
     "name": "minecraft.weapon[0].sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:OmniWarTab"
+      "value": "CUSTOM:GlitchTab"
     },
     "toolType": "Sword",
     "harvestLevel": 1,

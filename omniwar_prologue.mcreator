@@ -23,15 +23,6 @@
       "registry_name": "null_plains"
     },
     {
-      "name": "OmniWarTab",
-      "type": "tab",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "omni_war_tab"
-    },
-    {
       "name": "GlitchSword",
       "type": "tool",
       "sortid": 7,
@@ -52,23 +43,23 @@
       "path": "~/Glitches"
     },
     {
-      "name": "ArtifactForge",
-      "type": "gui",
-      "sortid": 9,
+      "name": "GlitchMinion",
+      "type": "livingentity",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "artifact_forge",
-      "path": "~/Artifacts"
+      "registry_name": "glitch_minion",
+      "path": "~/Glitches"
     },
     {
-      "name": "ArtifactForgeWhileThisGUIIsOpenTick",
+      "name": "RegisterGlitchPlayersScript",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "artifact_forge_while_this_gui_is_open_tick",
+      "registry_name": "register_glitch_players_script",
       "metadata": {
         "dependencies": [
           {
@@ -79,38 +70,531 @@
       }
     },
     {
-      "name": "ArtifactForgeBlock",
-      "type": "block",
-      "sortid": 11,
+      "name": "RegsiterGlitchPlayers",
+      "type": "command",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "artifact_forge_block",
+      "registry_name": "regsiter_glitch_players",
+      "path": "~/Commands"
+    },
+    {
+      "name": "BootstrapFunction",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootstrap_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchMinionInit",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_minion_init",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bootstrap",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootstrap",
+      "path": "~/Commands"
+    },
+    {
+      "name": "FireArtifact",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_artifact",
       "path": "~/Artifacts"
     },
     {
-      "name": "GlitchMinion",
-      "type": "livingentity",
-      "sortid": 12,
+      "name": "ArtifactTab",
+      "type": "tab",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "glitch_minion",
+      "registry_name": "artifact_tab",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "GlitchTab",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_tab",
       "path": "~/Glitches"
+    },
+    {
+      "name": "NullCoreArtifact",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "null_core_artifact",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "GetNullArtifact",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_null_artifact",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "AdvancementRoot",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancement_root"
+    },
+    {
+      "name": "GetFireArtifact",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_fire_artifact",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "WaterArtifact",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_artifact",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "ElementalBladePassive",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elemental_blade_passive",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementalBlade",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elemental_blade",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "ElementalBladeAdvancement",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elemental_blade_advancement",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "GlitchDimensionSwitcherUse",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_dimension_switcher_use",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchDimensionSwitcher",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_dimension_switcher",
+      "path": "~/Glitches"
+    },
+    {
+      "name": "GetWaterArtifact",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_water_artifact",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "ElementalBladeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elemental_blade_recipe",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "GetShortcutItem",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_shortcut_item",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "EarthArtifact",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "earth_artifact",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "ElementalWhisper",
+      "type": "function",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elemental_whisper",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "AirArtifact",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_artifact",
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "GetEarthArtifact",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_earth_artifact",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "GetAirArtifact",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_air_artifact",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "EnterNullDimension",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enter_null_dimension",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "KillMinion",
+      "type": "achievement",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kill_minion",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "KillMinionTrigger",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kill_minion_trigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Achievements/CustomTriggers"
+    },
+    {
+      "name": "OmniWarStoryProgression",
+      "type": "command",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "omni_war_story_progression",
+      "path": "~/Commands"
+    },
+    {
+      "name": "OmniWarStoryProgressionCommandExecuted",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "omni_war_story_progression_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarAdvancement",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "war_advancement",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "GlitchWarAdvancement",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_war_advancement",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "EndgameBeginningAdvancement",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endgame_beginning_advancement",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "FinalBattleAdvancement",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "final_battle_advancement",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "TheEndAdvancement",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_end_advancement",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "EpilogueGUI",
+      "type": "gui",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epilogue_gui",
+      "path": "~/Glitches"
+    },
+    {
+      "name": "EpilogueBookItem",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epilogue_book_item",
+      "path": "~/Glitches"
+    },
+    {
+      "name": "TheEndLoot",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_end_loot",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "SeasonTwoTeaser",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "season_two_teaser",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "EpilogueGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epilogue_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabomni_war_tab": "Omni War - Prologue",
-      "item.omniwar_prologue.glitch_gun": "com.utils.POINTER",
-      "biome.omniwar_prologue.null_plains": "Null Plains",
-      "item.omniwar_prologue.glitch_minion_spawn_egg": "entity.type.null[0] Spawn Egg",
-      "item.omniwar_prologue.glitch_sword": "minecraft.weapon[0].sword",
+      "advancements.elemental_blade_advancement.descr": "Only those who hold the four elements can forge this blade...",
+      "item.omniwar_prologue.null_core_artifact": "Null Core Artifact",
       "entity.omniwar_prologue.glitch_minion": "entity.type.null[0]",
-      "block.omniwar_prologue.artifact_forge_block": "Artifact Forge Table",
-      "item.omniwar_prologue.null_demension": "Null Demension Portal Igniter"
+      "advancements.elemental_blade_advancement.title": "The Elemental Blade",
+      "advancements.the_end_advancement.title": "OmniWar: Prologue",
+      "item.omniwar_prologue.fire_artifact": "Glistening Blaze Powder",
+      "item.omniwar_prologue.air_artifact": "Air Sigil",
+      "itemGroup.tabglitch_tab": "Glitch Tab",
+      "item.omniwar_prologue.water_artifact": "Water of the \u0027Raft",
+      "advancements.get_null_artifact.title": "advancement.artifacts.null",
+      "advancements.glitch_war_advancement.descr": "?????????????????",
+      "advancements.the_end_advancement.descr": "Epilogue to a Prologue",
+      "advancements.enter_null_dimension.descr": "Or the begi- wait, this isn\u0027t...",
+      "advancements.get_water_artifact.title": "Ocean\u0027s Bliss",
+      "advancements.endgame_beginning_advancement.descr": "process with id \"/world/dimensions/null\" is overloaded!",
+      "advancements.advancement_root.title": "OmniWar - Prologue",
+      "advancements.get_shortcut_item.title": "Symbolic Link",
+      "item.omniwar_prologue.null_demension": "Null Demension Portal Igniter",
+      "advancements.get_fire_artifact.descr": "Find Glistening Blaze Powder, containing the firey powers of the Nether",
+      "advancements.get_air_artifact.title": "Solid Air",
+      "advancements.season_two_teaser.title": "Is There More?",
+      "advancements.endgame_beginning_advancement.title": "system corruption: 76%",
+      "advancements.final_battle_advancement.descr": "ITS NOW\u003c OR NEVEE############",
+      "biome.omniwar_prologue.null_plains": "Null Plains",
+      "advancements.enter_null_dimension.title": "The End?",
+      "item.omniwar_prologue.elemental_blade": "Elemental Blade",
+      "advancements.get_fire_artifact.title": "Eternal Inferno",
+      "item.omniwar_prologue.glitch_sword": "minecraft.weapon[0].sword",
+      "advancements.war_advancement.descr": "Be at war with another faction",
+      "advancements.get_air_artifact.descr": "Get the Air Sigil, one of the physical forms of the air element.",
+      "item.omniwar_prologue.glitch_gun": "com.utils.POINTER",
+      "advancements.final_battle_advancement.title": "$y$t$$ $o$r$$t$$n: %%%",
+      "itemGroup.tabartifact_tab": "OmniWar Artifacts",
+      "advancements.get_earth_artifact.title": "Origin Story",
+      "item.omniwar_prologue.epilogue_book_item": "OmniWar: Prologue - Credits",
+      "advancements.kill_minion.descr": "you. killed. me.",
+      "advancements.season_two_teaser.descr": "OmniWar is not over.",
+      "advancements.kill_minion.title": "M0N$T3R HUNT3RRRRRRRR",
+      "advancements.advancement_root.descr": "The war only begins...",
+      "advancements.get_earth_artifact.descr": "Find Gaia\u0027s Sprout, responsible for the creation of the world.",
+      "item.omniwar_prologue.glitch_minion_spawn_egg": "entity.type.null[0] Spawn Egg",
+      "advancements.get_null_artifact.descr": "advancement.artifacts.null.description",
+      "advancements.glitch_war_advancement.title": "T0 W@RR!!!1!!!!!!!!\u003cend\u003e",
+      "advancements.get_water_artifact.descr": "Find the Water of the Raft, full of the clearest water.",
+      "item.omniwar_prologue.glitch_dimension_switcher": "ln --current /world/dimensions/null",
+      "advancements.war_advancement.title": "To War!",
+      "advancements.get_shortcut_item.descr": "The file shortcut only existed on Windows, right?",
+      "item.omniwar_prologue.earth_artifact": "Gaia\u0027s Sprout"
     }
   },
   "foldersRoot": {
@@ -123,6 +607,19 @@
       {
         "name": "Artifacts",
         "children": []
+      },
+      {
+        "name": "Commands",
+        "children": []
+      },
+      {
+        "name": "Achievements",
+        "children": [
+          {
+            "name": "CustomTriggers",
+            "children": []
+          }
+        ]
       }
     ]
   },

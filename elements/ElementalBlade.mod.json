@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "elemental_blade",
+    "customModelName": "Normal",
+    "name": "Elemental Blade",
+    "specialInfo": [
+      "The four elements forged with the power of the Netherite sword to form the Elemental Blade,a blade only mentioned in the legends...",
+      "You feel the elements empower you when you wield it."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ArtifactTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 4096,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FireArtifact"
+      },
+      {
+        "value": "CUSTOM:WaterArtifact"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "ElementalBladePassive"
+    }
+  }
+}

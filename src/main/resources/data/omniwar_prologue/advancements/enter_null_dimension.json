@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
+    },
+    "title": {
+      "translate": "advancements.enter_null_dimension.title"
+    },
+    "description": {
+      "translate": "advancements.enter_null_dimension.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "enter_null_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "omniwar_prologue:null_demension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "omniwar_prologue:get_shortcut_item"
+}

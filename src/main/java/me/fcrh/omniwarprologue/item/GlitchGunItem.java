@@ -30,7 +30,7 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
-import me.fcrh.omniwarprologue.itemgroup.OmniWarTabItemGroup;
+import me.fcrh.omniwarprologue.itemgroup.GlitchTabItemGroup;
 import me.fcrh.omniwarprologue.entity.renderer.GlitchGunRenderer;
 import me.fcrh.omniwarprologue.OmniwarPrologueModElements;
 
@@ -55,7 +55,7 @@ public class GlitchGunItem extends OmniwarPrologueModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(OmniWarTabItemGroup.tab).maxStackSize(1));
+			super(new Item.Properties().group(GlitchTabItemGroup.tab).maxStackSize(1));
 			setRegistryName("glitch_gun");
 		}
 
@@ -67,7 +67,7 @@ public class GlitchGunItem extends OmniwarPrologueModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.SPEAR;
+			return UseAction.BOW;
 		}
 
 		@Override

@@ -1,0 +1,25 @@
+{
+  "group": "omniwar_prologue",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "omniwar_prologue:air_artifact"
+    },
+    {
+      "item": "omniwar_prologue:earth_artifact"
+    },
+    {
+      "item": "minecraft:netherite_sword"
+    },
+    {
+      "item": "omniwar_prologue:fire_artifact"
+    },
+    {
+      "item": "omniwar_prologue:water_artifact"
+    }
+  ],
+  "result": {
+    "item": "omniwar_prologue:elemental_blade",
+    "count": 1
+  }
+}

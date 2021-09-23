@@ -8,7 +8,7 @@
     "name": "com.utils.POINTER",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:OmniWarTab"
+      "value": "CUSTOM:GlitchTab"
     },
     "stackSize": 1,
     "ammoItem": {
@@ -20,7 +20,7 @@
       "value": "ui.button.click"
     },
     "hasGlow": false,
-    "animation": "spear",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 3.0,

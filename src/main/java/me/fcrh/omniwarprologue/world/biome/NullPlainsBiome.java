@@ -15,9 +15,11 @@ import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
+import me.fcrh.omniwarprologue.entity.GlitchMinionEntity;
 import me.fcrh.omniwarprologue.OmniwarPrologueModElements;
 
 @OmniwarPrologueModElements.ModElement.Tag
@@ -42,6 +44,7 @@ public class NullPlainsBiome extends OmniwarPrologueModElements.ModElement {
 						SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.BLACK_CONCRETE_POWDER.getDefaultState(),
 								Blocks.BLACK_CONCRETE.getDefaultState(), Blocks.BLACK_CONCRETE.getDefaultState())));
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(GlitchMinionEntity.entity, 20, 1, 1));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "shortcut_key",
+    "customModelName": "Normal",
+    "name": "ln --current /world/dimensions/null",
+    "rarity": "RARE",
+    "specialInfo": [
+      "Symbolic link to /world/dimensions/null"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GlitchTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": "CUSTOM:GlitchDimensionSwitcher"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "bow",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "GlitchDimensionSwitcherUse"
+    }
+  }
+}

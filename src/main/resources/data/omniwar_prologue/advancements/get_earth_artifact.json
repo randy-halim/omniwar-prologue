@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "omniwar_prologue:earth_artifact"
+    },
+    "title": {
+      "translate": "advancements.get_earth_artifact.title"
+    },
+    "description": {
+      "translate": "advancements.get_earth_artifact.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_earth_artifact": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "omniwar_prologue:earth_artifact",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "function": "omniwar_prologue:elemental_whisper",
+    "recipes": [
+      "omniwar_prologue:elemental_blade"
+    ]
+  },
+  "parent": "omniwar_prologue:elemental_blade_advancement"
+}

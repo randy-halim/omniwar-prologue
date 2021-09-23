@@ -1,0 +1,190 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "OmniWar",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "OmniWar",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Season 1: Prologue",
+          "color": {
+            "value": -16226159,
+            "falpha": 0.0
+          },
+          "name": "Season 1: Prologue",
+          "x": 195,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Let us go then, you and I",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "\"Let us go then, you and I",
+          "x": 132,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "When the !VOID! eats the sky",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "When the !VOID! eats the sky",
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Like a humanoid melting like",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Like a humanoid melting like",
+          "x": 132,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "clams upon the table.\"",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "clams upon the table.\"",
+          "x": 141,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Adapted from SCP-3999",
+          "color": {
+            "value": -8684677,
+            "falpha": 0.0
+          },
+          "name": "Adapted from SCP-3999",
+          "x": 150,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Modpack by ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Modpack by ",
+          "x": 141,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Prologue Mod by ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Prologue Mod by ",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "EpicOmanyte",
+          "color": {
+            "value": -4323408,
+            "falpha": 0.0
+          },
+          "name": "EpicOmanyte",
+          "x": 231,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "PUMPkinNET",
+          "color": {
+            "value": -4323408,
+            "falpha": 0.0
+          },
+          "name": "PUMPkinNET",
+          "x": 231,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Thanks for playing :)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Thanks for playing :)",
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Read?",
+          "name": "epilogue_teaser",
+          "x": 132,
+          "y": 44
+        }
+      }
+    ],
+    "onTick": {
+      "name": "EpilogueGUIWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

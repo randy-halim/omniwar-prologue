@@ -24,7 +24,7 @@ public class GlitchMinionRenderer {
 				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("omniwar_prologue:textures/zombie.png");
+						return new ResourceLocation("omniwar_prologue:textures/glitch_minion.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));

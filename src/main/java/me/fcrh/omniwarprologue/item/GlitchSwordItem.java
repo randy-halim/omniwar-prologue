@@ -8,7 +8,7 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import me.fcrh.omniwarprologue.itemgroup.OmniWarTabItemGroup;
+import me.fcrh.omniwarprologue.itemgroup.GlitchTabItemGroup;
 import me.fcrh.omniwarprologue.OmniwarPrologueModElements;
 
 @OmniwarPrologueModElements.ModElement.Tag
@@ -45,7 +45,7 @@ public class GlitchSwordItem extends OmniwarPrologueModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(OmniWarTabItemGroup.tab).isImmuneToFire()) {
+		}, 3, -3f, new Item.Properties().group(GlitchTabItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("glitch_sword"));
 	}
 }

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_stal"
+    },
+    "title": {
+      "translate": "advancements.final_battle_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.final_battle_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "final_battle_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "omniwar_prologue:endgame_beginning_advancement"
+}
